@@ -8,8 +8,7 @@
 
 int main(void)
 {
-	int i, s;
-	char n, k;
+	int i, s, n, k;
 
 	n = 48;
 	k = 44;
