@@ -23,10 +23,13 @@ int main(void)
 	{
 		if (a < b && a != b)
 		{
-		putchar(a);
-		putchar(b);
-		putchar(c);
-		putchar(s);
+			putchar(a);
+			putchar(b);
+			if (a != 56)
+			{
+				putchar(c);
+				putchar(s);
+			}
 		}
 		b++;
 	}
