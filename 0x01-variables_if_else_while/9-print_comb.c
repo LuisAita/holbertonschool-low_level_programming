@@ -8,14 +8,13 @@
 
 int main(void)
 {
-	int i, z, s;
+	int i, s;
 	char n, k;
 
 	n = 48;
 	k = 44;
 	s = 32;
 	i = 0;
-	z = 0;
 
 	while (i < 10)
 	{
