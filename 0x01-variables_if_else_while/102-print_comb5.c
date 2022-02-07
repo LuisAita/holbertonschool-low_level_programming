@@ -32,18 +32,18 @@ int main(void)
 				for (m = 0; m  < 10; m++)
 				{
 
-					if ((a + b) < (e + f) &&  (a != f || b != e))
+					if ((a != e || b != f) && (a + b <=  e + f))
 					{
-					putchar(a);	/* FIRST #*/
-					putchar(b);	/* SECOND #*/
-					putchar(d);	/* SPACE */
-					putchar(e);	/* THIRD #*/
-					putchar(f);	/* FOURTH #*/
+						putchar(a);
+						putchar(b);
+						putchar(d);
+						putchar(e);
+						putchar(f);
 
-						if (a + b != 113)
+						if (!((a == 57) && (b == 56) && (e == 57) && (f == 57)))
 						{
-						putchar(c);	/* COMMA */
-						putchar(d);	/* SPACE */
+						putchar(c);
+						putchar(d);
 						}
 					}
 					f++;
