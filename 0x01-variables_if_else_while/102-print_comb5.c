@@ -32,7 +32,7 @@ int main(void)
 				for (m = 0; m  < 10; m++)
 				{
 
-					if ((a + b) < (e + f))
+					if ((a + b) < (e + f) &&  (a != f || b != e))
 					{
 					putchar(a);	/* FIRST #*/
 					putchar(b);	/* SECOND #*/
