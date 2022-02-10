@@ -14,9 +14,8 @@ int _abs(int a)
 
 		absolute = a * -1;
 
-		return(absolute);
+		return (absolute);
 	}
 
 	return (a);
 }
-
