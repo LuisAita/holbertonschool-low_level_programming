@@ -2,12 +2,12 @@
 
 /**
   * add - Adds two values
-  * @a1: The first number to be passed into the function
-  * @b2: The second number to be passed into the function
+  * @a: The first number to be passed into the function
+  * @b: The second number to be passed into the function
   *
   * Return: Int
   */
-int add(int a1, int a2)
+int add(int a, int b)
 {
-	return (a1 + a2);
+	return (a + b);
 }
