@@ -1,9 +1,9 @@
 #include "main.h"
 
 /*
- * print_diagonal: print a diagonal line
- * @n: input- size of line
- */
+ *print_diagonal - print a diagonal line
+ *@n: input- size of line
+*/
 
 void print_diagonal(int n)
 {
@@ -14,6 +14,7 @@ void print_diagonal(int n)
 	if (n <= 0)
 	{
 		_putchar(36);
+		_putchar(10);
 	}
 	while (j < n)
 	{
@@ -27,5 +28,4 @@ void print_diagonal(int n)
 		_putchar(10);
 		j++;
 	}
-	_putchar(10);
 }
