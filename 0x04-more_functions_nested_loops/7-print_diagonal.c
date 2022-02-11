@@ -3,6 +3,7 @@
 /**
  * print_diagonal - print a diagonal line
  * @n: input- size of line
+ * Return: no return
 */
 
 void print_diagonal(int n)
