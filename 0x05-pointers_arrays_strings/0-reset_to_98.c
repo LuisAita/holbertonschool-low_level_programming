@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * _reset_to_98 -  Function that resets in var to 98
+ * reset_to_98 -  Function that resets int var to 98
  * @n : int variable
  */
 
-void reset_to_98(int *n);
+void reset_to_98(int *n)
 {
-	int *p;
+	int *p = n;
 
-	*p = &n;
 	*p = 98;
 
 }
