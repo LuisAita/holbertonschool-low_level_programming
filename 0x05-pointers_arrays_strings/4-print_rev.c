@@ -15,10 +15,10 @@ void print_rev(char *s)
 	while (s[i] != '\0')
 	{
 		i++;
-		strlen = i +1;
+		strlen = i;
 	}
 
-	for  (; strlen >= 0 ; strlen--)
+	for  (strlen--; strlen >= 0 ; strlen--)
 	{
 		_putchar(s[strlen]);
 	}
